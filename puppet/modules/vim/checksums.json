@@ -1,0 +1,10 @@
+{
+  "README.md": "8d610ab7dcb0b9366c23c8b8d46287ce",
+  "manifests/init.pp": "15acaffc57cefa8a51e25fd952a50438",
+  "manifests/params.pp": "c149af6b6fea3de61d31b289b24081ed",
+  "metadata.json": "f457ab76db770258718e20cfdc24d12a",
+  "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+  "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+  "templates/vimrc.erb": "83914932e244bfeb1a9b059d7033d8fc",
+  "tests/init.pp": "b651e1a93505b3f5baf094fd19fdc663"
+}

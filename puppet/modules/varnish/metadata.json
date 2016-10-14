@@ -1,0 +1,74 @@
+{
+  "name": "bashtoni-varnish",
+  "version": "3.0.0",
+  "author": "Bashton Ltd",
+  "summary": "Install and configure Varnish Cache",
+  "license": "Apache-2.0",
+  "source": "https://github.com/BashtonLtd/puppet-varnish",
+  "project_page": "https://github.com/BashtonLtd/puppet-varnish",
+  "issues_url": "https://github.com/BashtonLtd/puppet-varnish/issues",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 3.2.0"},
+    {"name":"puppetlabs/apt","version_requirement":">= 1.0.0"}
+  ],
+  "description": "Install and configure Varnish Cache",
+  "tags": [
+    "varnish",
+    "cache",
+    "http"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.1.0"
+    }
+  ]
+}
