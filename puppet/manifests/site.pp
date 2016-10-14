@@ -36,7 +36,7 @@ class webserver {
 class mysql_server {
   # install mysql-server package
   class { '::mysql::server':
-    root_password           => 'HwmysmvN63GuXEH4',
+    root_password           => 'XXXX',
     remove_default_accounts => true,
     override_options => {
       mysqld => { bind_address => '0.0.0.0'} #Allow remote connections
